@@ -1,0 +1,3 @@
+com\fintech\controller\HomeController.class
+com\fintech\config\AppConfig.class
+com\fintech\config\WebMvcConfig.class

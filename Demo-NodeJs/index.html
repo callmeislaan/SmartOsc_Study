@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add new person</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+<h1 align="center">Add new person</h1>
+
+<form action="" method="post">
+    <table align="center">
+        <tr>
+            <td>
+                First Name:
+            </td>
+            <td>
+                <input type="text" placeholder="name" id="firstName">
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Last Name:
+            </td>
+            <td>
+                <input type="text" placeholder="name" id="lastName">
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Salary:
+            </td>
+            <td>
+                <input type="number" placeholder="salary" id="salary">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth:
+            </td>
+            <td>
+                <input type="date" placeholder="dd/MM/yyyy" min="01-01-2000" id="dob">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Status:
+            </td>
+            <td>
+                <select name="status" id="status">
+                    <option value="ACTIVE">active</option>
+                    <option value="INACTIVE">inactive</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" id="save">save</button>
+            </td>
+            <td>
+                <button type="button" id="reset">reset</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<!--script-->
+<script src="app/index.ts"></script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+day7,org.FlatMap,ProvinceNotFound,0,4,0,0,0,2,0,1,0,1
+day7,org.FlatMap,Province,0,9,0,0,0,4,0,2,0,2
+day7,org.FlatMap,Address,0,12,0,0,0,6,0,3,0,3
+day7,org.FlatMap,Person,0,38,0,0,0,9,0,7,0,7
+day7,stream,Main,60,0,0,0,7,0,3,0,3,0
+day7,stream,TestStream.Person,28,0,0,0,5,0,2,0,2,0
+day7,stream,TestStream,68,0,4,0,9,0,6,0,4,0
+day7,stream,MyString,13,0,0,0,5,0,3,0,3,0

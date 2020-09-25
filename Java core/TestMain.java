@@ -1,0 +1,6 @@
+/**
+ * TestMain
+ */
+public class TestMain {
+
+}

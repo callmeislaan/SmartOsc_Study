@@ -1,0 +1,290 @@
+02-Jun-2020 07:37:33.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+02-Jun-2020 07:37:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+02-Jun-2020 07:37:33.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+02-Jun-2020 07:37:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Jun-2020 07:37:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Jun-2020 07:37:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jun-2020 07:37:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_231\jre
+02-Jun-2020 07:37:33.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_231-b11
+02-Jun-2020 07:37:33.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jun-2020 07:37:33.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Java\apache-tomcat-8.5.55
+02-Jun-2020 07:37:33.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.55
+02-Jun-2020 07:37:33.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Java\apache-tomcat-8.5.55\conf\logging.properties
+02-Jun-2020 07:37:33.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jun-2020 07:37:33.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Jun-2020 07:37:33.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Jun-2020 07:37:33.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Jun-2020 07:37:33.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Java\apache-tomcat-8.5.55
+02-Jun-2020 07:37:33.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.55
+02-Jun-2020 07:37:33.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.55\temp
+02-Jun-2020 07:37:33.304 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;%JAVA_HOME%\bin;C:\Users\truon\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\truon\AppData\Local\Programs\Python\Python37\;C:\Users\truon\AppData\Local\Microsoft\WindowsApps;;C:\Users\truon\AppData\Local\Programs\Microsoft VS Code\bin;.]
+02-Jun-2020 07:37:34.060 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jun-2020 07:37:34.388 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jun-2020 07:37:34.426 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2043 ms
+02-Jun-2020 07:37:34.492 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Jun-2020 07:37:34.493 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+02-Jun-2020 07:37:34.539 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war]
+02-Jun-2020 07:37:34.949 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Jun-2020 07:37:38.430 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 07:37:38.532 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war] has finished in [3,992] ms
+02-Jun-2020 07:37:38.539 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+02-Jun-2020 07:37:38.612 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Jun-2020 07:37:39.971 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 07:37:40.134 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+02-Jun-2020 07:37:41.900 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1766 ms
+02-Jun-2020 07:37:41.907 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [3,368] ms
+02-Jun-2020 07:37:41.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\docs]
+02-Jun-2020 07:37:41.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\docs] has finished in [38] ms
+02-Jun-2020 07:37:41.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\examples]
+02-Jun-2020 07:37:42.432 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\examples] has finished in [483] ms
+02-Jun-2020 07:37:42.439 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\host-manager]
+02-Jun-2020 07:37:42.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\host-manager] has finished in [55] ms
+02-Jun-2020 07:37:42.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\manager]
+02-Jun-2020 07:37:42.543 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\manager] has finished in [49] ms
+02-Jun-2020 07:37:42.552 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Jun-2020 07:37:42.577 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8149 ms
+02-Jun-2020 07:38:25.976 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+02-Jun-2020 07:38:26.017 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+02-Jun-2020 07:38:26.482 WARNING [http-nio-8080-exec-2] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Jun-2020 07:38:29.391 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 07:38:29.432 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [3,414] ms
+02-Jun-2020 09:19:24.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+02-Jun-2020 09:19:24.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+02-Jun-2020 09:19:24.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+02-Jun-2020 09:19:24.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Jun-2020 09:19:24.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Jun-2020 09:19:24.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jun-2020 09:19:24.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_231\jre
+02-Jun-2020 09:19:24.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_231-b11
+02-Jun-2020 09:19:24.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jun-2020 09:19:24.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Java\apache-tomcat-8.5.55
+02-Jun-2020 09:19:24.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.55
+02-Jun-2020 09:19:24.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Java\apache-tomcat-8.5.55\conf\logging.properties
+02-Jun-2020 09:19:24.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jun-2020 09:19:24.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Jun-2020 09:19:24.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Jun-2020 09:19:24.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Jun-2020 09:19:24.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Java\apache-tomcat-8.5.55
+02-Jun-2020 09:19:24.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.55
+02-Jun-2020 09:19:24.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.55\temp
+02-Jun-2020 09:19:24.584 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;%JAVA_HOME%\bin;C:\Users\truon\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\truon\AppData\Local\Programs\Python\Python37\;C:\Users\truon\AppData\Local\Microsoft\WindowsApps;;C:\Users\truon\AppData\Local\Programs\Microsoft VS Code\bin;.]
+02-Jun-2020 09:19:25.270 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jun-2020 09:19:25.602 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jun-2020 09:19:25.633 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1859 ms
+02-Jun-2020 09:19:25.702 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Jun-2020 09:19:25.702 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+02-Jun-2020 09:19:25.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war]
+02-Jun-2020 09:19:26.150 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Jun-2020 09:19:28.956 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 09:19:29.046 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war] has finished in [3,295] ms
+02-Jun-2020 09:19:29.046 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+02-Jun-2020 09:19:29.197 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Jun-2020 09:19:31.650 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 09:19:31.682 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,636] ms
+02-Jun-2020 09:19:31.692 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\docs]
+02-Jun-2020 09:19:31.712 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\docs] has finished in [20] ms
+02-Jun-2020 09:19:31.712 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\examples]
+02-Jun-2020 09:19:32.165 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\examples] has finished in [453] ms
+02-Jun-2020 09:19:32.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\host-manager]
+02-Jun-2020 09:19:32.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\host-manager] has finished in [43] ms
+02-Jun-2020 09:19:32.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\manager]
+02-Jun-2020 09:19:32.264 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\manager] has finished in [48] ms
+02-Jun-2020 09:19:32.276 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Jun-2020 09:19:32.297 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6650 ms
+02-Jun-2020 09:20:17.969 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+02-Jun-2020 09:20:18.054 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+02-Jun-2020 09:20:18.533 WARNING [http-nio-8080-exec-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Jun-2020 09:20:20.549 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 09:20:20.595 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,541] ms
+02-Jun-2020 09:29:35.464 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+02-Jun-2020 09:29:35.575 WARNING [http-nio-8080-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+02-Jun-2020 09:29:35.585 WARNING [http-nio-8080-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+02-Jun-2020 09:29:35.595 WARNING [http-nio-8080-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+02-Jun-2020 09:29:35.675 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+02-Jun-2020 09:29:36.217 WARNING [http-nio-8080-exec-16] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Jun-2020 09:29:37.777 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1378)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1030)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+02-Jun-2020 09:29:38.184 INFO [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 09:29:38.231 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,556] ms
+02-Jun-2020 09:31:07.131 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+02-Jun-2020 09:31:07.162 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+02-Jun-2020 09:31:07.547 WARNING [http-nio-8080-exec-21] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Jun-2020 09:31:09.082 INFO [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 09:31:09.105 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,943] ms
+02-Jun-2020 13:45:06.296 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+02-Jun-2020 14:12:38.633 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+02-Jun-2020 14:13:33.965 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+02-Jun-2020 14:13:47.936 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+02-Jun-2020 14:13:47.936 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+02-Jun-2020 14:13:47.936 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.expand An expanded directory [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] was found with a last modified time that did not match the associated WAR. It will be deleted.
+02-Jun-2020 14:13:47.951 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT\WEB-INF\lib] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:13:47.951 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT\WEB-INF] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:13:47.951 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:13:47.951 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.delete [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:13:47.951 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context []
+	java.io.IOException: [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+		at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:109)
+		at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:636)
+		at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:749)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:182)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3759)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1395)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1368)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1603)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1385)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1353)
+		at java.lang.Thread.run(Thread.java:748)
+02-Jun-2020 14:13:48.838 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 14:13:48.838 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+02-Jun-2020 14:14:18.915 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+02-Jun-2020 14:14:18.958 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+02-Jun-2020 14:14:19.028 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.expand An expanded directory [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] was found with a last modified time that did not match the associated WAR. It will be deleted.
+02-Jun-2020 14:14:19.048 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT\WEB-INF\lib] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:14:19.058 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT\WEB-INF] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:14:19.058 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:14:19.058 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.delete [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:14:19.058 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context []
+	java.io.IOException: [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+		at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:109)
+		at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:636)
+		at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:749)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:182)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3759)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1395)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1368)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1603)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1385)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1353)
+		at java.lang.Thread.run(Thread.java:748)
+02-Jun-2020 14:14:20.599 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 14:14:20.609 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+02-Jun-2020 14:14:59.134 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+02-Jun-2020 14:15:10.655 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+02-Jun-2020 14:15:10.655 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+02-Jun-2020 14:15:10.655 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.expand An expanded directory [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] was found with a last modified time that did not match the associated WAR. It will be deleted.
+02-Jun-2020 14:15:10.671 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT\WEB-INF\lib] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:15:10.671 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT\WEB-INF] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:15:10.671 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:15:10.671 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.delete [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:15:10.671 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context []
+	java.io.IOException: [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+		at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:109)
+		at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:636)
+		at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:749)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:182)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3759)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1395)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1368)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1603)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1385)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1353)
+		at java.lang.Thread.run(Thread.java:748)
+02-Jun-2020 14:15:12.084 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 14:15:12.100 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+02-Jun-2020 14:18:12.239 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+02-Jun-2020 14:18:12.239 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+02-Jun-2020 14:18:12.239 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.expand An expanded directory [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] was found with a last modified time that did not match the associated WAR. It will be deleted.
+02-Jun-2020 14:18:12.239 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT\WEB-INF\lib] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:18:12.254 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT\WEB-INF] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:18:12.254 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:18:12.254 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.delete [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:18:12.254 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context []
+	java.io.IOException: [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+		at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:109)
+		at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:636)
+		at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:749)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:182)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3759)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1395)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1368)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1603)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1385)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1353)
+		at java.lang.Thread.run(Thread.java:748)
+02-Jun-2020 14:18:13.155 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 14:18:13.165 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+02-Jun-2020 14:18:53.223 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+02-Jun-2020 14:18:53.263 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+02-Jun-2020 14:18:53.313 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.expand An expanded directory [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] was found with a last modified time that did not match the associated WAR. It will be deleted.
+02-Jun-2020 14:18:53.331 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT\WEB-INF\lib] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:18:53.333 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT\WEB-INF] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:18:53.333 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:18:53.333 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.delete [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+02-Jun-2020 14:18:53.333 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context []
+	java.io.IOException: [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] could not be completely deleted. The presence of the remaining files may cause problems
+		at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:109)
+		at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:636)
+		at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:749)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:182)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3759)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1395)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1368)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1603)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1385)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1353)
+		at java.lang.Thread.run(Thread.java:748)
+02-Jun-2020 14:18:54.469 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 14:18:54.484 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+02-Jun-2020 14:22:44.685 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+02-Jun-2020 14:22:44.685 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+02-Jun-2020 14:22:44.685 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.expand An expanded directory [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] was found with a last modified time that did not match the associated WAR. It will be deleted.
+02-Jun-2020 14:22:45.108 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Jun-2020 14:22:47.046 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2020 14:22:47.077 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed

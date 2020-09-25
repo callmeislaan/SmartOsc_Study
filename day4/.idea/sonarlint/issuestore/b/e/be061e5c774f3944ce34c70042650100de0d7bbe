@@ -1,0 +1,10 @@
+
+B
+java:S1612
+",Replace this lambda with a method reference.(×Ê°à
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Õ§îşÿÿÿÿ
+>
+java:S1604"(Make this anonymous inner class a lambda(™ôÛè
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Õ§îşÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

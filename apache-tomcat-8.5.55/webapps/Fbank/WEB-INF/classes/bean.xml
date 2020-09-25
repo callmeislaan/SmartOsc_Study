@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <context:annotation-config />
+    <context:component-scan base-package="com.fbank" />
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url"
+                  value="jdbc:mysql://localhost:3306/Fbank_sys" />
+        <property name="username" value="root" />
+        <property name="password" value="" />
+    </bean>
+
+    <!-- Transaction config -->
+    <tx:annotation-driven transaction-manager="transactionManager" />
+
+    <bean id="transactionManager"
+          class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+
+    <bean id="sessionFactory"
+          class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="packagesToScan" value="com.fintech" />
+        <property name="hibernateProperties" value="classpath:hibernate.cfg.xml" />
+    </bean>
+
+    <bean id="session" class="org.hibernate.Session" abstract="true"></bean>
+
+    <bean id="account" class="com.fintech.domain.Account">
+        <property name="accountInfo" ref="accountInfo"/>
+    </bean>
+
+    <bean id="accountInfo" class="com.fintech.domain.AccountInfo">
+    </bean>
+
+    <bean id="accountDAO" class="com.fintech.dao.AccountDAO" >
+        <property name="sessionFatory" ref="sessionFactory"></property>
+    </bean>
+</beans>

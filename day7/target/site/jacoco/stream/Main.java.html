@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">day7</a> &gt; <a href="index.source.html" class="el_package">stream</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package stream;
+
+interface itf&lt;T&gt; {
+//    void bbc(T s1, T s2);
+//    T get();
+    T[] a(int size);
+}
+
+class MyString {
+
+<span class="nc" id="L11">    public MyString() {</span>
+<span class="nc" id="L12">        System.out.println(&quot;day la A&quot;);</span>
+<span class="nc" id="L13">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L17">        return &quot;Day la toString A&quot;;</span>
+    }
+
+    //    public MyString(String s1, String s2) {
+////        return -s1.compareTo(s2);
+//        System.out.println(&quot;a&quot;);
+//    }
+
+    public int compareTo(String s1, String s2) {
+<span class="nc" id="L26">        return -s1.compareTo(s2);</span>
+    }
+
+}
+
+
+<span class="nc" id="L32">public class Main {</span>
+
+    public static void main(String[] args) {
+
+//        MyString myString = new MyString();
+
+//        Logger logger = LoggerFactory.getLogger(Main.class);
+//        logger.error(&quot;a&quot;, 1);
+//        logger.info(&quot;a&quot;, 2);
+//        logger.info(&quot;a&quot;, 3);
+//        logger.info(&quot;a&quot;, 4);
+
+<span class="nc" id="L44">        String[] list = {&quot;Java&quot;, &quot;Python&quot;, &quot;C#&quot;};</span>
+//        Stream.of(list).filter(s -&gt; s.startsWith(&quot;J&quot;)).forEach(s -&gt; System.out.println(s));
+//        Stream.of(list).filter(s -&gt; s.startsWith(&quot;J&quot;)).forEach(s -&gt; System.out.println(s));
+
+//        streamSupplier.get().forEach(s -&gt; System.out.println(s));
+//        streamSupplier.get().forEach(s -&gt; System.out.println(s));
+
+//        IntStream.of(1, 2, 3).forEach(value -&gt; System.out.println(value));
+//        DoubleStream.of(1, 2, 3, 4).forEach(value -&gt; System.out.println(value));
+//        Stream.of(1, 2, 3, 4).forEach(integer -&gt; System.out.println(integer));
+//        Stream&lt;Integer&gt; stream = Stream.of(new Integer[] {1, 2, 3});
+//        stream.forEach(integer -&gt; System.out.println(integer));
+//        Stream stream1 = new ArrayList&lt;Integer&gt;().stream();
+//        Stream s = Stream.generate(() -&gt; new Date()).limit(10);
+////        s.forEach(o -&gt; System.out.println(o));
+//        Stream.Builder builder = Stream.builder();
+//        builder.add(1);
+//        List&lt;String&gt; data = Arrays.asList(&quot;Java&quot;, &quot;C#&quot;, &quot;C++&quot;, &quot;PHP&quot;, &quot;Javascript&quot;);
+
+<span class="nc" id="L63">        String[] data = {&quot;Java&quot;, &quot;C#&quot;, &quot;C++&quot;, &quot;PHP&quot;, &quot;Javascript&quot;, &quot;Java&quot;};</span>
+//        Integer[] i = {2, 1, 3, 5, 4};
+//        Stream.of(i).peek(integers -&gt; System.out.println(integers)).count();
+
+//        itf compareTo =   MyString::compareTo;
+
+//        Consumer&lt;String&gt; a = MyString::new;
+
+<span class="nc" id="L71">        itf&lt;MyString[]&gt; my = MyString[][]::new;</span>
+<span class="nc" id="L72">        MyString[][] a = my.a(3);</span>
+<span class="nc" id="L73">        System.out.println(a.length);</span>
+//        itf a = MyString::new;
+//        a.bbc(&quot;a&quot;, &quot;a&quot;);
+
+//        Stream.of(data)
+////                .peek(System.out::println)
+//                .sorted()
+//                .distinct()
+////                .toArray();
+//                .forEach(System.out::println);
+<span class="nc" id="L83">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

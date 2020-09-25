@@ -1,0 +1,548 @@
+01-Jun-2020 08:49:42.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+01-Jun-2020 08:49:42.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_231\jre
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_231-b11
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Java\apache-tomcat-8.5.55\conf\logging.properties
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.55\temp
+01-Jun-2020 08:49:42.438 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;%JAVA_HOME%\bin;C:\Users\truon\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\truon\AppData\Local\Programs\Python\Python37\;C:\Users\truon\AppData\Local\Microsoft\WindowsApps;;C:\Users\truon\AppData\Local\Programs\Microsoft VS Code\bin;.]
+01-Jun-2020 08:49:43.494 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jun-2020 08:49:43.911 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Jun-2020 08:49:43.964 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2627 ms
+01-Jun-2020 08:49:44.026 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jun-2020 08:49:44.042 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+01-Jun-2020 08:49:44.080 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\docs]
+01-Jun-2020 08:49:45.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\docs] has finished in [1,098] ms
+01-Jun-2020 08:49:45.186 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\examples]
+01-Jun-2020 08:49:46.106 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\examples] has finished in [920] ms
+01-Jun-2020 08:49:46.106 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\host-manager]
+01-Jun-2020 08:49:46.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\host-manager] has finished in [83] ms
+01-Jun-2020 08:49:46.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\manager]
+01-Jun-2020 08:49:46.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\manager] has finished in [49] ms
+01-Jun-2020 08:49:46.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\ROOT]
+01-Jun-2020 08:49:46.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] has finished in [47] ms
+01-Jun-2020 08:49:46.285 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jun-2020 08:49:46.307 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2349 ms
+01-Jun-2020 08:55:56.761 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/D:/Java/apache-tomcat-8.5.55/conf/tomcat-users.xml]
+01-Jun-2020 08:56:04.433 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+01-Jun-2020 08:56:04.449 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+01-Jun-2020 08:56:04.687 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+01-Jun-2020 08:56:04.750 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+01-Jun-2020 08:56:04.750 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+01-Jun-2020 08:56:08.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+01-Jun-2020 08:56:08.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+01-Jun-2020 08:56:08.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+01-Jun-2020 08:56:08.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jun-2020 08:56:08.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jun-2020 08:56:08.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jun-2020 08:56:08.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_231\jre
+01-Jun-2020 08:56:08.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_231-b11
+01-Jun-2020 08:56:08.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jun-2020 08:56:08.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 08:56:08.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 08:56:08.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Java\apache-tomcat-8.5.55\conf\logging.properties
+01-Jun-2020 08:56:08.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jun-2020 08:56:08.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jun-2020 08:56:08.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jun-2020 08:56:08.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jun-2020 08:56:08.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 08:56:08.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 08:56:08.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.55\temp
+01-Jun-2020 08:56:08.950 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;%JAVA_HOME%\bin;C:\Users\truon\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\truon\AppData\Local\Programs\Python\Python37\;C:\Users\truon\AppData\Local\Microsoft\WindowsApps;;C:\Users\truon\AppData\Local\Programs\Microsoft VS Code\bin;.]
+01-Jun-2020 08:56:09.404 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jun-2020 08:56:10.042 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Jun-2020 08:56:10.104 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2424 ms
+01-Jun-2020 08:56:10.228 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jun-2020 08:56:10.228 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+01-Jun-2020 08:56:10.269 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\docs]
+01-Jun-2020 08:56:10.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\docs] has finished in [718] ms
+01-Jun-2020 08:56:10.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\examples]
+01-Jun-2020 08:56:11.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\examples] has finished in [780] ms
+01-Jun-2020 08:56:11.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\host-manager]
+01-Jun-2020 08:56:11.848 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\host-manager] has finished in [81] ms
+01-Jun-2020 08:56:11.879 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\manager]
+01-Jun-2020 08:56:11.979 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\manager] has finished in [131] ms
+01-Jun-2020 08:56:11.979 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\ROOT]
+01-Jun-2020 08:56:12.030 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\ROOT] has finished in [51] ms
+01-Jun-2020 08:56:12.040 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jun-2020 08:56:12.060 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1951 ms
+01-Jun-2020 08:57:09.535 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war]
+01-Jun-2020 08:57:10.174 WARNING [http-nio-8080-exec-2] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 08:57:14.174 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 08:57:14.206 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war] has finished in [4,671] ms
+01-Jun-2020 09:00:19.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_231\jre
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_231-b11
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Java\apache-tomcat-8.5.55\conf\logging.properties
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 09:00:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 09:00:19.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.55\temp
+01-Jun-2020 09:00:19.829 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;%JAVA_HOME%\bin;C:\Users\truon\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\truon\AppData\Local\Programs\Python\Python37\;C:\Users\truon\AppData\Local\Microsoft\WindowsApps;;C:\Users\truon\AppData\Local\Programs\Microsoft VS Code\bin;.]
+01-Jun-2020 09:00:20.120 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jun-2020 09:00:20.159 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1068)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:848)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:587)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1066)
+		... 13 more
+01-Jun-2020 09:00:20.164 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1184 ms
+01-Jun-2020 09:00:20.246 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jun-2020 09:00:20.246 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+01-Jun-2020 09:00:20.277 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war]
+01-Jun-2020 09:00:20.713 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 09:34:33.130 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Fbank]
+01-Jun-2020 09:34:33.205 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war]
+01-Jun-2020 09:34:33.575 WARNING [http-nio-8080-exec-8] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 09:34:35.659 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 09:34:35.699 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war] has finished in [2,494] ms
+01-Jun-2020 11:11:16.423 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Fbank]
+01-Jun-2020 11:11:16.454 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war]
+01-Jun-2020 11:11:16.839 WARNING [http-nio-8080-exec-14] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 11:11:18.560 INFO [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 11:11:18.597 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war] has finished in [2,143] ms
+01-Jun-2020 11:12:36.238 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 11:12:36.253 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 11:12:36.701 WARNING [http-nio-8080-exec-21] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 11:12:38.206 INFO [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 11:12:38.243 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,990] ms
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.55
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 22:10:54 UTC
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.55.0
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_231\jre
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_231-b11
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Java\apache-tomcat-8.5.55\conf\logging.properties
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.55
+01-Jun-2020 15:33:02.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.55\temp
+01-Jun-2020 15:33:02.085 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;%JAVA_HOME%\bin;C:\Users\truon\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\truon\AppData\Local\Programs\Python\Python37\;C:\Users\truon\AppData\Local\Microsoft\WindowsApps;;C:\Users\truon\AppData\Local\Programs\Microsoft VS Code\bin;.]
+01-Jun-2020 15:33:02.332 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Jun-2020 15:33:02.639 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Jun-2020 15:33:02.671 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1230 ms
+01-Jun-2020 15:33:02.733 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jun-2020 15:33:02.733 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+01-Jun-2020 15:33:02.771 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war]
+01-Jun-2020 15:33:03.119 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 15:33:05.824 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 15:33:05.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\Fbank.war] has finished in [3,144] ms
+01-Jun-2020 15:33:05.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 15:33:06.056 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 15:33:08.390 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 15:33:08.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,513] ms
+01-Jun-2020 15:33:08.430 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\docs]
+01-Jun-2020 15:33:08.450 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\docs] has finished in [20] ms
+01-Jun-2020 15:33:08.450 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\examples]
+01-Jun-2020 15:33:08.881 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\examples] has finished in [431] ms
+01-Jun-2020 15:33:08.881 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\host-manager]
+01-Jun-2020 15:33:08.923 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\host-manager] has finished in [42] ms
+01-Jun-2020 15:33:08.923 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.55\webapps\manager]
+01-Jun-2020 15:33:08.963 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.55\webapps\manager] has finished in [40] ms
+01-Jun-2020 15:33:08.973 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jun-2020 15:33:08.992 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6317 ms
+01-Jun-2020 15:36:42.927 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 15:36:42.980 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 15:36:43.112 WARNING [http-nio-8080-exec-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 15:36:44.083 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 15:36:44.214 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 15:36:45.787 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1573 ms
+01-Jun-2020 15:36:45.787 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,807] ms
+01-Jun-2020 15:37:01.558 WARNING [http-nio-8080-exec-9] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /favicon.ico
+01-Jun-2020 15:42:21.985 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 15:42:22.023 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 15:42:22.154 WARNING [http-nio-8080-exec-11] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 15:42:23.068 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 15:42:23.187 INFO [http-nio-8080-exec-11] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 15:42:24.516 INFO [http-nio-8080-exec-11] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1329 ms
+01-Jun-2020 15:42:24.516 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,493] ms
+01-Jun-2020 15:44:37.125 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 15:44:37.173 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 15:44:37.321 WARNING [http-nio-8080-exec-20] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 15:44:38.076 INFO [http-nio-8080-exec-20] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 15:44:38.207 INFO [http-nio-8080-exec-20] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 15:44:39.677 INFO [http-nio-8080-exec-20] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1454 ms
+01-Jun-2020 15:44:39.677 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,504] ms
+01-Jun-2020 15:46:46.717 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 15:46:46.748 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 15:46:46.855 WARNING [http-nio-8080-exec-26] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 15:46:47.588 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 15:46:47.704 INFO [http-nio-8080-exec-26] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 15:46:49.092 INFO [http-nio-8080-exec-26] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1388 ms
+01-Jun-2020 15:46:49.107 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,375] ms
+01-Jun-2020 15:49:01.957 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 15:49:01.973 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 15:49:02.089 WARNING [http-nio-8080-exec-32] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 15:49:03.007 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 15:49:03.107 INFO [http-nio-8080-exec-32] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 15:49:04.179 INFO [http-nio-8080-exec-32] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1056 ms
+01-Jun-2020 15:49:04.179 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,206] ms
+01-Jun-2020 15:49:55.430 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 15:49:55.468 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 15:49:55.615 WARNING [http-nio-8080-exec-33] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 15:49:56.217 INFO [http-nio-8080-exec-33] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 15:49:56.317 INFO [http-nio-8080-exec-33] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 15:49:57.304 INFO [http-nio-8080-exec-33] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 987 ms
+01-Jun-2020 15:49:57.304 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,836] ms
+01-Jun-2020 15:52:18.761 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 15:52:18.792 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 15:52:18.908 WARNING [http-nio-8080-exec-41] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 15:52:19.478 INFO [http-nio-8080-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 15:52:19.578 INFO [http-nio-8080-exec-41] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 15:52:20.627 INFO [http-nio-8080-exec-41] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1049 ms
+01-Jun-2020 15:52:20.627 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,835] ms
+01-Jun-2020 15:53:18.747 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 15:53:18.763 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 15:53:18.879 WARNING [http-nio-8080-exec-12] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 15:53:19.627 INFO [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 15:53:19.712 INFO [http-nio-8080-exec-12] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 15:53:20.583 INFO [http-nio-8080-exec-12] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 871 ms
+01-Jun-2020 15:53:20.583 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,820] ms
+01-Jun-2020 15:53:59.375 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 15:53:59.390 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 15:53:59.506 WARNING [http-nio-8080-exec-49] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 15:54:00.092 INFO [http-nio-8080-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 15:54:00.192 INFO [http-nio-8080-exec-49] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 15:54:01.110 INFO [http-nio-8080-exec-49] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 918 ms
+01-Jun-2020 15:54:01.126 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,736] ms
+01-Jun-2020 16:01:44.555 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 16:01:44.577 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 16:01:44.709 WARNING [http-nio-8080-exec-54] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 16:01:45.273 INFO [http-nio-8080-exec-54] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 16:01:45.364 INFO [http-nio-8080-exec-54] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 16:01:46.266 INFO [http-nio-8080-exec-54] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 902 ms
+01-Jun-2020 16:01:46.266 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,689] ms
+01-Jun-2020 16:07:32.721 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 16:07:32.737 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 16:07:32.853 WARNING [http-nio-8080-exec-64] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 16:07:33.508 INFO [http-nio-8080-exec-64] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 16:07:33.586 INFO [http-nio-8080-exec-64] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 16:07:34.489 INFO [http-nio-8080-exec-64] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 903 ms
+01-Jun-2020 16:07:34.489 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,752] ms
+01-Jun-2020 16:08:47.373 INFO [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 16:08:47.389 INFO [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 16:08:47.504 WARNING [http-nio-8080-exec-72] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 16:08:48.137 INFO [http-nio-8080-exec-72] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 16:08:48.222 INFO [http-nio-8080-exec-72] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 16:08:49.093 INFO [http-nio-8080-exec-72] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 871 ms
+01-Jun-2020 16:08:49.093 INFO [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,704] ms
+01-Jun-2020 16:13:21.408 INFO [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 16:13:21.439 INFO [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 16:13:21.555 WARNING [http-nio-8080-exec-77] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 16:13:22.203 INFO [http-nio-8080-exec-77] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 16:13:22.326 INFO [http-nio-8080-exec-77] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 16:13:23.228 INFO [http-nio-8080-exec-77] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 902 ms
+01-Jun-2020 16:13:23.228 INFO [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,789] ms
+01-Jun-2020 17:02:32.396 INFO [http-nio-8080-exec-85] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:02:32.427 INFO [http-nio-8080-exec-85] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:02:32.550 WARNING [http-nio-8080-exec-85] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:02:33.198 INFO [http-nio-8080-exec-85] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:02:33.368 INFO [http-nio-8080-exec-85] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:02:34.640 INFO [http-nio-8080-exec-85] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1272 ms
+01-Jun-2020 17:02:34.655 INFO [http-nio-8080-exec-85] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,228] ms
+01-Jun-2020 17:07:45.696 INFO [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:07:45.727 INFO [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:07:45.843 WARNING [http-nio-8080-exec-96] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:07:46.445 INFO [http-nio-8080-exec-96] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:07:46.529 INFO [http-nio-8080-exec-96] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:07:47.485 INFO [http-nio-8080-exec-96] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 940 ms
+01-Jun-2020 17:07:47.485 INFO [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,758] ms
+01-Jun-2020 17:11:36.072 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:11:36.088 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:11:36.457 WARNING [http-nio-8080-exec-104] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:11:38.215 INFO [http-nio-8080-exec-104] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:11:38.256 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,168] ms
+01-Jun-2020 17:18:11.419 INFO [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:18:11.466 INFO [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:18:11.582 WARNING [http-nio-8080-exec-111] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:18:12.252 INFO [http-nio-8080-exec-111] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:18:12.368 INFO [http-nio-8080-exec-111] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:18:13.271 INFO [http-nio-8080-exec-111] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 903 ms
+01-Jun-2020 17:18:13.286 INFO [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,820] ms
+01-Jun-2020 17:19:17.531 INFO [http-nio-8080-exec-121] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:19:17.569 INFO [http-nio-8080-exec-121] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:19:17.685 WARNING [http-nio-8080-exec-121] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:19:18.286 INFO [http-nio-8080-exec-121] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:19:18.371 INFO [http-nio-8080-exec-121] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:19:19.220 INFO [http-nio-8080-exec-121] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 849 ms
+01-Jun-2020 17:19:19.236 INFO [http-nio-8080-exec-121] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,667] ms
+01-Jun-2020 17:24:31.873 INFO [http-nio-8080-exec-126] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:24:31.904 INFO [http-nio-8080-exec-126] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:24:32.020 WARNING [http-nio-8080-exec-126] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:24:32.653 INFO [http-nio-8080-exec-126] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:24:32.768 INFO [http-nio-8080-exec-126] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:24:33.884 INFO [http-nio-8080-exec-126] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1116 ms
+01-Jun-2020 17:24:33.884 INFO [http-nio-8080-exec-126] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,980] ms
+01-Jun-2020 17:25:00.070 INFO [http-nio-8080-exec-131] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:25:00.101 INFO [http-nio-8080-exec-131] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:25:00.224 WARNING [http-nio-8080-exec-131] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:25:00.903 INFO [http-nio-8080-exec-131] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:25:01.004 INFO [http-nio-8080-exec-131] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:25:01.928 INFO [http-nio-8080-exec-131] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 924 ms
+01-Jun-2020 17:25:01.928 INFO [http-nio-8080-exec-131] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,827] ms
+01-Jun-2020 17:25:46.761 INFO [http-nio-8080-exec-129] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:25:46.799 INFO [http-nio-8080-exec-129] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:25:46.915 WARNING [http-nio-8080-exec-129] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:25:47.548 INFO [http-nio-8080-exec-129] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:25:47.632 INFO [http-nio-8080-exec-129] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:25:48.503 INFO [http-nio-8080-exec-129] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 871 ms
+01-Jun-2020 17:25:48.503 INFO [http-nio-8080-exec-129] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,704] ms
+01-Jun-2020 17:27:04.524 INFO [http-nio-8080-exec-142] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:27:04.540 INFO [http-nio-8080-exec-142] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:27:04.678 WARNING [http-nio-8080-exec-142] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:27:05.311 INFO [http-nio-8080-exec-142] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:27:05.395 INFO [http-nio-8080-exec-142] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:27:06.298 INFO [http-nio-8080-exec-142] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 903 ms
+01-Jun-2020 17:27:06.298 INFO [http-nio-8080-exec-142] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,758] ms
+01-Jun-2020 17:33:30.500 INFO [http-nio-8080-exec-147] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:33:30.532 INFO [http-nio-8080-exec-147] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:33:30.647 WARNING [http-nio-8080-exec-147] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:33:31.287 INFO [http-nio-8080-exec-147] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:33:31.365 INFO [http-nio-8080-exec-147] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:33:32.236 INFO [http-nio-8080-exec-147] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 871 ms
+01-Jun-2020 17:33:32.252 INFO [http-nio-8080-exec-147] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,720] ms
+01-Jun-2020 17:33:35.824 WARNING [http-nio-8080-exec-148] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /favicon.ico
+01-Jun-2020 17:34:17.241 INFO [http-nio-8080-exec-155] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:34:17.257 INFO [http-nio-8080-exec-155] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:34:17.395 WARNING [http-nio-8080-exec-155] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:34:18.074 INFO [http-nio-8080-exec-155] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:34:18.159 INFO [http-nio-8080-exec-155] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:34:19.093 INFO [http-nio-8080-exec-155] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 934 ms
+01-Jun-2020 17:34:19.099 INFO [http-nio-8080-exec-155] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,842] ms
+01-Jun-2020 17:34:21.930 WARNING [http-nio-8080-exec-151] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /favicon.ico
+01-Jun-2020 17:36:26.628 INFO [http-nio-8080-exec-158] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:36:26.659 INFO [http-nio-8080-exec-158] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:36:26.797 WARNING [http-nio-8080-exec-158] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:36:27.397 INFO [http-nio-8080-exec-158] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:36:27.477 INFO [http-nio-8080-exec-158] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:36:28.329 INFO [http-nio-8080-exec-158] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 852 ms
+01-Jun-2020 17:36:28.329 INFO [http-nio-8080-exec-158] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,670] ms
+01-Jun-2020 17:36:31.091 WARNING [http-nio-8080-exec-160] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /favicon.ico
+01-Jun-2020 17:39:18.543 INFO [http-nio-8080-exec-164] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:39:18.568 INFO [http-nio-8080-exec-164] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:39:18.684 WARNING [http-nio-8080-exec-164] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:39:19.455 INFO [http-nio-8080-exec-164] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:39:19.555 INFO [http-nio-8080-exec-164] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:39:20.605 INFO [http-nio-8080-exec-164] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1050 ms
+01-Jun-2020 17:39:20.605 INFO [http-nio-8080-exec-164] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [2,037] ms
+01-Jun-2020 17:39:58.075 INFO [http-nio-8080-exec-169] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:39:58.090 INFO [http-nio-8080-exec-169] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:39:58.222 WARNING [http-nio-8080-exec-169] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:39:58.808 INFO [http-nio-8080-exec-169] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:39:58.892 INFO [http-nio-8080-exec-169] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:39:59.795 INFO [http-nio-8080-exec-169] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 903 ms
+01-Jun-2020 17:39:59.795 INFO [http-nio-8080-exec-169] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,705] ms
+01-Jun-2020 17:50:52.764 INFO [http-nio-8080-exec-175] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:50:52.795 INFO [http-nio-8080-exec-175] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:50:52.926 WARNING [http-nio-8080-exec-175] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:50:53.713 INFO [http-nio-8080-exec-175] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:50:53.798 INFO [http-nio-8080-exec-175] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:50:54.716 INFO [http-nio-8080-exec-175] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 918 ms
+01-Jun-2020 17:50:54.716 INFO [http-nio-8080-exec-175] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,921] ms
+01-Jun-2020 17:53:40.942 INFO [http-nio-8080-exec-185] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:53:40.958 INFO [http-nio-8080-exec-185] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:53:41.074 WARNING [http-nio-8080-exec-185] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:53:41.713 INFO [http-nio-8080-exec-185] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:53:41.791 INFO [http-nio-8080-exec-185] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:53:42.678 INFO [http-nio-8080-exec-185] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 887 ms
+01-Jun-2020 17:53:42.678 INFO [http-nio-8080-exec-185] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,720] ms
+01-Jun-2020 17:54:45.243 INFO [http-nio-8080-exec-189] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:54:45.259 INFO [http-nio-8080-exec-189] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:54:45.390 WARNING [http-nio-8080-exec-189] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:54:46.030 INFO [http-nio-8080-exec-189] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:54:46.114 INFO [http-nio-8080-exec-189] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:54:47.132 INFO [http-nio-8080-exec-189] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1018 ms
+01-Jun-2020 17:54:47.132 INFO [http-nio-8080-exec-189] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,873] ms
+01-Jun-2020 17:56:16.553 INFO [http-nio-8080-exec-194] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:56:16.568 INFO [http-nio-8080-exec-194] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:56:16.684 WARNING [http-nio-8080-exec-194] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:56:17.322 INFO [http-nio-8080-exec-194] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:56:17.425 INFO [http-nio-8080-exec-194] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:56:18.312 INFO [http-nio-8080-exec-194] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 887 ms
+01-Jun-2020 17:56:18.312 INFO [http-nio-8080-exec-194] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,744] ms
+01-Jun-2020 17:57:04.216 INFO [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:57:04.238 INFO [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:57:04.369 WARNING [http-nio-8080-exec-190] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:57:05.033 INFO [http-nio-8080-exec-190] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:57:05.102 INFO [http-nio-8080-exec-190] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:57:05.974 INFO [http-nio-8080-exec-190] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 856 ms
+01-Jun-2020 17:57:05.974 INFO [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,736] ms
+01-Jun-2020 17:58:19.510 INFO [http-nio-8080-exec-203] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 17:58:19.541 INFO [http-nio-8080-exec-203] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 17:58:19.664 WARNING [http-nio-8080-exec-203] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 17:58:20.366 INFO [http-nio-8080-exec-203] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 17:58:20.444 INFO [http-nio-8080-exec-203] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 17:58:21.384 INFO [http-nio-8080-exec-203] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 940 ms
+01-Jun-2020 17:58:21.384 INFO [http-nio-8080-exec-203] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,843] ms
+01-Jun-2020 17:58:23.281 WARNING [http-nio-8080-exec-204] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException Failure in @ExceptionHandler com.fintech.controller.ErrorController#handle(HttpServletRequest)
+	org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class java.util.HashMap
+		at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:230)
+		at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+		at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+		at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:407)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+		at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+		at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+		at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+		at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1627)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+01-Jun-2020 18:01:38.472 INFO [http-nio-8080-exec-208] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 18:01:38.487 INFO [http-nio-8080-exec-208] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 18:01:38.603 WARNING [http-nio-8080-exec-208] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 18:01:39.274 INFO [http-nio-8080-exec-208] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 18:01:39.374 INFO [http-nio-8080-exec-208] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 18:01:40.208 INFO [http-nio-8080-exec-208] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 834 ms
+01-Jun-2020 18:01:40.208 INFO [http-nio-8080-exec-208] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,721] ms
+01-Jun-2020 18:02:21.650 INFO [http-nio-8080-exec-199] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 18:02:21.681 INFO [http-nio-8080-exec-199] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 18:02:21.797 WARNING [http-nio-8080-exec-199] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 18:02:22.499 INFO [http-nio-8080-exec-199] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 18:02:22.599 INFO [http-nio-8080-exec-199] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 18:02:23.601 INFO [http-nio-8080-exec-199] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1002 ms
+01-Jun-2020 18:02:23.617 INFO [http-nio-8080-exec-199] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,936] ms
+01-Jun-2020 18:07:28.552 INFO [http-nio-8080-exec-216] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 18:07:28.581 INFO [http-nio-8080-exec-216] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 18:07:28.731 WARNING [http-nio-8080-exec-216] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 18:07:29.425 INFO [http-nio-8080-exec-216] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 18:07:29.514 INFO [http-nio-8080-exec-216] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 18:07:30.524 INFO [http-nio-8080-exec-216] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1009 ms
+01-Jun-2020 18:07:30.527 INFO [http-nio-8080-exec-216] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,947] ms
+01-Jun-2020 18:10:05.946 INFO [http-nio-8080-exec-224] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 18:10:05.962 INFO [http-nio-8080-exec-224] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 18:10:06.077 WARNING [http-nio-8080-exec-224] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 18:10:06.736 INFO [http-nio-8080-exec-224] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 18:10:06.826 INFO [http-nio-8080-exec-224] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 18:10:07.798 INFO [http-nio-8080-exec-224] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 972 ms
+01-Jun-2020 18:10:07.798 INFO [http-nio-8080-exec-224] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,836] ms
+01-Jun-2020 18:11:50.419 INFO [http-nio-8080-exec-230] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 18:11:50.451 INFO [http-nio-8080-exec-230] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 18:11:50.567 WARNING [http-nio-8080-exec-230] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 18:11:51.206 INFO [http-nio-8080-exec-230] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 18:11:51.284 INFO [http-nio-8080-exec-230] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 18:11:52.255 INFO [http-nio-8080-exec-230] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 971 ms
+01-Jun-2020 18:11:52.255 INFO [http-nio-8080-exec-230] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,804] ms
+01-Jun-2020 18:12:21.839 INFO [http-nio-8080-exec-227] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 18:12:21.870 INFO [http-nio-8080-exec-227] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 18:12:22.008 WARNING [http-nio-8080-exec-227] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 18:12:22.741 INFO [http-nio-8080-exec-227] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 18:12:22.841 INFO [http-nio-8080-exec-227] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 18:12:23.759 INFO [http-nio-8080-exec-227] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 918 ms
+01-Jun-2020 18:12:23.759 INFO [http-nio-8080-exec-227] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,889] ms
+01-Jun-2020 18:15:10.613 INFO [http-nio-8080-exec-240] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 18:15:10.650 INFO [http-nio-8080-exec-240] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 18:15:10.766 WARNING [http-nio-8080-exec-240] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 18:15:11.368 INFO [http-nio-8080-exec-240] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 18:15:11.468 INFO [http-nio-8080-exec-240] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 18:15:12.339 INFO [http-nio-8080-exec-240] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 871 ms
+01-Jun-2020 18:15:12.339 INFO [http-nio-8080-exec-240] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,689] ms
+01-Jun-2020 18:16:53.156 INFO [http-nio-8080-exec-247] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 18:16:53.178 INFO [http-nio-8080-exec-247] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 18:16:53.294 WARNING [http-nio-8080-exec-247] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 18:16:53.942 INFO [http-nio-8080-exec-247] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 18:16:54.027 INFO [http-nio-8080-exec-247] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 18:16:54.945 INFO [http-nio-8080-exec-247] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 918 ms
+01-Jun-2020 18:16:54.945 INFO [http-nio-8080-exec-247] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,767] ms
+01-Jun-2020 18:18:13.932 INFO [http-nio-8080-exec-252] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 18:18:13.963 INFO [http-nio-8080-exec-252] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 18:18:14.094 WARNING [http-nio-8080-exec-252] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 18:18:14.734 INFO [http-nio-8080-exec-252] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 18:18:14.834 INFO [http-nio-8080-exec-252] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 18:18:15.752 INFO [http-nio-8080-exec-252] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 918 ms
+01-Jun-2020 18:18:15.768 INFO [http-nio-8080-exec-252] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,805] ms
+01-Jun-2020 18:23:17.063 INFO [http-nio-8080-exec-257] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 18:23:17.103 INFO [http-nio-8080-exec-257] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 18:23:17.213 WARNING [http-nio-8080-exec-257] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 18:23:17.846 INFO [http-nio-8080-exec-257] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 18:23:17.931 INFO [http-nio-8080-exec-257] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 18:23:18.787 INFO [http-nio-8080-exec-257] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 856 ms
+01-Jun-2020 18:23:18.787 INFO [http-nio-8080-exec-257] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,684] ms
+01-Jun-2020 18:25:51.242 INFO [http-nio-8080-exec-266] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+01-Jun-2020 18:25:51.258 INFO [http-nio-8080-exec-266] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war]
+01-Jun-2020 18:25:51.380 WARNING [http-nio-8080-exec-266] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+01-Jun-2020 18:25:52.082 INFO [http-nio-8080-exec-266] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Jun-2020 18:25:52.213 INFO [http-nio-8080-exec-266] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+01-Jun-2020 18:25:53.162 INFO [http-nio-8080-exec-266] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 949 ms
+01-Jun-2020 18:25:53.162 INFO [http-nio-8080-exec-266] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Java\apache-tomcat-8.5.55\webapps\ROOT.war] has finished in [1,904] ms

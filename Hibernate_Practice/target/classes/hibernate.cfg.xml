@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/hibernate_practice?serverTimezone=UTC</property>
+        <property name="connection.username">root</property>
+<!--         <property name="connection.password"/> -->
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+
+<!--         DB schema will be updated if needed -->
+         <property name="hibernate.hbm2ddl.auto">create</property>
+
+<!--        mapping -->
+        <mapping class="com.entity.Customer"/>
+        <mapping class="com.entity.Product"/>
+        <mapping class="com.entity.Order"/>
+        <mapping class="com.entity.OrderDetail"/>
+        <mapping class="com.entity.CongTy"/>
+        <mapping class="com.entity.Tien"/>
+        <mapping class="com.entity.CanDoiKeToan"/>
+    </session-factory>
+</hibernate-configuration>

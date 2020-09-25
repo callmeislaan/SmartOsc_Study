@@ -1,0 +1,8 @@
+com\fintech\model\Person.class
+com\fintech\controller\HomeController.class
+com\fintech\controller\InputController.class
+com\fintech\controller\MakeError.class
+com\fintech\controller\ErrorController.class
+com\fintech\model\Persons.class
+com\fintech\config\AppConfig.class
+com\fintech\config\WebMVCConfig.class

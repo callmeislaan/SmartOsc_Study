@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70719997-41c2-44ff-8cd0-bc85d4e3f3f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Demo-NodeJs/app/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/HibernateExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/HibernateExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/dao/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/entity/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/entity/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/entity/ProductDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/entity/ProductDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/src/main/java/org/example/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateExample/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateExample/src/test/java/org/example/HibernateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1e21IQWOP7ok4H5pmj41sPxwX5w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70719997-41c2-44ff-8cd0-bc85d4e3f3f3" name="Default Changelist" comment="" />
+      <created>1593504793734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593504793734</updated>
+      <workItem from="1593504796622" duration="131000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1593504798494">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1593504798494" />
+  </component>
+</project>

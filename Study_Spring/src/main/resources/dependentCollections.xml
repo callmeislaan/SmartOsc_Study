@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <!-- Inject by constructor -->
+    <bean id="person2" class="com.fintech.stackjava.dependency_injection.dependent_collections.Person">
+        <constructor-arg name="name" type="String" value="spring"></constructor-arg>
+        <constructor-arg name="age" type="int" value="30"></constructor-arg>
+        <constructor-arg name="addresses">
+            <list>
+                <ref bean="address1" />
+                <ref bean="address2" />
+            </list>
+        </constructor-arg>
+        <constructor-arg name="emails">
+            <list>
+                <value>abc@gmail.com</value>
+                <value>def@yahoo.com</value>
+            </list>
+        </constructor-arg>
+    </bean>
+    <!-- Inject by setter -->
+    <bean id="person" class="com.fintech.stackjava.dependency_injection.dependent_collections.Person">
+        <property name="name" value="stackjava.com"></property>
+        <property name="age" value="25"></property>
+        <property name="addresses">
+            <list>
+                <ref bean="address2" />
+            </list>
+        </property>
+        <property name="emails">
+            <list>
+                <value>ghi@hotmail.com</value>
+                <value>klm@zzz.com</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="address1" class="com.fintech.stackjava.dependency_injection.Address">
+        <property name="country" value="Viet Nam"></property>
+        <property name="province" value="Ha Noi"></property>
+        <property name="district" value="Thanh Xuan"></property>
+    </bean>
+    <bean id="address2" class="com.fintech.stackjava.dependency_injection.Address">
+        <property name="country" value="Viet Nam"></property>
+        <property name="province" value="Ha Noi"></property>
+        <property name="district" value="Ha Dong"></property>
+    </bean>
+</beans>

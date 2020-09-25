@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tsn="http://fintech.com"
+           targetNamespace="http://fintech.com"
+           elementFormDefault="qualified">
+
+    <xs:element name="getPlusRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="numbers" type="tsn:numbers"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getMinusRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="numbers" type="tsn:numbers"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getPlusResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="result" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getMinusResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="result" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="numbers">
+        <xs:sequence>
+            <xs:element name="number1" type="xs:nonNegativeInteger"/>
+            <xs:element name="number2" type="xs:nonNegativeInteger"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

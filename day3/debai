@@ -1,0 +1,20 @@
+1. Write an object Conversions with methods inchesToCentimeters, gallonsToLiters, and milesToKilometers
+
+2. The preceding problem wasn’t very object-oriented. Provide a general superclass UnitConversion and ]
+define objects InchesToCentimeters, GallonsToLiters, and MilesToKilometers that extend it.
+
+3. Extend the following BankAccount class to a CheckingAccount class that charges $1
+for every deposit and withdrawal.
+
+4. Extend the BankAccount class of the preceding exercise into a class SavingsAccount
+that earns interest every month (when a method earnMonthlyInterest is called)
+and has three free deposits or withdrawals every month. Reset the transaction
+count in the earnMonthlyInterest method.
+
+5. Design a class Point whose x and y coordinate values can be provided in a
+constructor. Provide a subclass LabeledPoint whose constructor takes a label
+value and x and y coordinates, such as new LabeledPoint("Black Thursday", 1929, 230.07)
+
+6. Define an abstract class Shape with an abstract method centerPoint and subclasses
+Rectangle and Circle. Provide appropriate constructors for the subclasses and
+override the centerPoint method in each subclass.
